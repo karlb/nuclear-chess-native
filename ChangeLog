@@ -1,0 +1,12 @@
+
+Version 0.9.2
+  -fixed segfault on capture (redhat 9) ???
+  -new output format for moves (stdout)
+  -removed check for SDL_image.h (we didn't manage to check for it correctly)
+  -fixed minor bugs in AI
+
+Version 0.9.1
+  -Fonts are loaded correctly after #make install#
+
+Version 0.9.0
+  -first public release

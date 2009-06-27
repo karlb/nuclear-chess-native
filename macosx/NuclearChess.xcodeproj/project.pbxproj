@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9917D3083F758300776964 /* SDLMain.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7F10E1083F4E73000567D3 /* SDLMain.h */; };
+		CB9917D5083F758300776964 /* SDLMain.nib in Resources */ = {isa = PBXBuildFile; fileRef = CB7F10DB083F4E36000567D3 /* SDLMain.nib */; };
+		CB9917D6083F758300776964 /* gfx in Resources */ = {isa = PBXBuildFile; fileRef = CB7F1139083F4FA9000567D3 /* gfx */; };
+		CB9917D7083F758300776964 /* NuclearChess.icns in Resources */ = {isa = PBXBuildFile; fileRef = CB7F10B9083F4CE9000567D3 /* NuclearChess.icns */; };
+		CB9917D9083F758300776964 /* atomschach.c in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10B1083F4CAC000567D3 /* atomschach.c */; };
+		CB9917DB083F758300776964 /* gfx.c in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10B3083F4CAC000567D3 /* gfx.c */; };
+		CB9917DD083F758300776964 /* gui.c in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10B5083F4CAC000567D3 /* gui.c */; };
+		CB9917DF083F758300776964 /* SFont.c in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10B7083F4CAC000567D3 /* SFont.c */; };
+		CB9917E1083F758300776964 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10E2083F4E73000567D3 /* SDLMain.m */; };
+		CB9917E3083F758300776964 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7F1163083F5443000567D3 /* SDL_mixer.framework */; };
+		CB9917E4083F758300776964 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7F1164083F5443000567D3 /* SDL.framework */; };
+		CB9917E7083F758300776964 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB7F1164083F5443000567D3 /* SDL.framework */; };
+		CB9917E8083F758300776964 /* SDL_mixer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB7F1163083F5443000567D3 /* SDL_mixer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB9917E6083F758300776964 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB9917E7083F758300776964 /* SDL.framework in CopyFiles */,
+				CB9917E8083F758300776964 /* SDL_mixer.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB7F10B1083F4CAC000567D3 /* atomschach.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = atomschach.c; path = ../src/atomschach.c; sourceTree = SOURCE_ROOT; };
+		CB7F10B2083F4CAC000567D3 /* atomschach.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = atomschach.h; path = ../src/atomschach.h; sourceTree = SOURCE_ROOT; };
+		CB7F10B3083F4CAC000567D3 /* gfx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = gfx.c; path = ../src/gfx.c; sourceTree = SOURCE_ROOT; };
+		CB7F10B4083F4CAC000567D3 /* gfx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = gfx.h; path = ../src/gfx.h; sourceTree = SOURCE_ROOT; };
+		CB7F10B5083F4CAC000567D3 /* gui.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = gui.c; path = ../src/gui.c; sourceTree = SOURCE_ROOT; };
+		CB7F10B6083F4CAC000567D3 /* gui.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = gui.h; path = ../src/gui.h; sourceTree = SOURCE_ROOT; };
+		CB7F10B7083F4CAC000567D3 /* SFont.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SFont.c; path = ../src/SFont.c; sourceTree = SOURCE_ROOT; };
+		CB7F10B8083F4CAC000567D3 /* SFont.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SFont.h; path = ../src/SFont.h; sourceTree = SOURCE_ROOT; };
+		CB7F10B9083F4CE9000567D3 /* NuclearChess.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = NuclearChess.icns; sourceTree = "<group>"; };
+		CB7F10DB083F4E36000567D3 /* SDLMain.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SDLMain.nib; path = /Users/karl/code/mygames/nuclearchess/macosx/SDLMain.nib; sourceTree = "<absolute>"; };
+		CB7F10E1083F4E73000567D3 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		CB7F10E2083F4E73000567D3 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		CB7F1139083F4FA9000567D3 /* gfx */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gfx; path = ../gfx; sourceTree = SOURCE_ROOT; };
+		CB7F1163083F5443000567D3 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = /Library/Frameworks/SDL_mixer.framework; sourceTree = "<absolute>"; };
+		CB7F1164083F5443000567D3 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
+		CB9917E9083F758300776964 /* Info-NuclearChess__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-NuclearChess__Upgraded_.plist"; sourceTree = "<group>"; };
+		CB9917EA083F758300776964 /* NuclearChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuclearChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9917E2083F758300776964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9917E3083F758300776964 /* SDL_mixer.framework in Frameworks */,
+				CB9917E4083F758300776964 /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7F10A5083F4C80000567D3 = {
+			isa = PBXGroup;
+			children = (
+				CB7F10B1083F4CAC000567D3 /* atomschach.c */,
+				CB7F10B2083F4CAC000567D3 /* atomschach.h */,
+				CB7F10B3083F4CAC000567D3 /* gfx.c */,
+				CB7F10B4083F4CAC000567D3 /* gfx.h */,
+				CB7F10B5083F4CAC000567D3 /* gui.c */,
+				CB7F10B6083F4CAC000567D3 /* gui.h */,
+				CB7F10B7083F4CAC000567D3 /* SFont.c */,
+				CB7F10B8083F4CAC000567D3 /* SFont.h */,
+				CB7F1139083F4FA9000567D3 /* gfx */,
+				CB7F10E6083F4E80000567D3 /* Mac-Resources */,
+				CB7F118A083F5449000567D3 /* Frameworks */,
+				CB7F10C4083F4D0A000567D3 /* Products */,
+				CB9917E9083F758300776964 /* Info-NuclearChess__Upgraded_.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7F10C4083F4D0A000567D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9917EA083F758300776964 /* NuclearChess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7F10E6083F4E80000567D3 /* Mac-Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F10E1083F4E73000567D3 /* SDLMain.h */,
+				CB7F10E2083F4E73000567D3 /* SDLMain.m */,
+				CB7F10DB083F4E36000567D3 /* SDLMain.nib */,
+				CB7F10B9083F4CE9000567D3 /* NuclearChess.icns */,
+			);
+			name = "Mac-Resources";
+			sourceTree = "<group>";
+		};
+		CB7F118A083F5449000567D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F1163083F5443000567D3 /* SDL_mixer.framework */,
+				CB7F1164083F5443000567D3 /* SDL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB9917D2083F758300776964 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9917D3083F758300776964 /* SDLMain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB9917D1083F758200776964 /* NuclearChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2A5D7F088A99FC00CFD185 /* Build configuration list for PBXNativeTarget "NuclearChess" */;
+			buildPhases = (
+				CB9917D2083F758300776964 /* Headers */,
+				CB9917D4083F758300776964 /* Resources */,
+				CB9917D8083F758300776964 /* Sources */,
+				CB9917E2083F758300776964 /* Frameworks */,
+				CB9917E5083F758300776964 /* Rez */,
+				CB9917E6083F758300776964 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuclearChess;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = NuclearCHESS;
+			productReference = CB9917EA083F758300776964 /* NuclearChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7F10A9083F4C80000567D3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CB2A5D83088A99FC00CFD185 /* Build configuration list for PBXProject "NuclearChess" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = CB7F10A5083F4C80000567D3;
+			productRefGroup = CB7F10C4083F4D0A000567D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9917D1083F758200776964 /* NuclearChess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9917D4083F758300776964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9917D5083F758300776964 /* SDLMain.nib in Resources */,
+				CB9917D6083F758300776964 /* gfx in Resources */,
+				CB9917D7083F758300776964 /* NuclearChess.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		CB9917E5083F758300776964 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9917D8083F758300776964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9917D9083F758300776964 /* atomschach.c in Sources */,
+				CB9917DB083F758300776964 /* gfx.c in Sources */,
+				CB9917DD083F758300776964 /* gui.c in Sources */,
+				CB9917DF083F758300776964 /* SFont.c in Sources */,
+				CB9917E1083F758300776964 /* SDLMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB2A5D80088A99FC00CFD185 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+				);
+				INFOPLIST_FILE = "Info-NuclearChess__Upgraded_.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SDL,
+					"-framework",
+					SDL_image,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NuclearChess;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		CB2A5D81088A99FC00CFD185 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+				);
+				INFOPLIST_FILE = "Info-NuclearChess__Upgraded_.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SDL,
+					"-framework",
+					SDL_image,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NuclearChess;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deployment;
+		};
+		CB2A5D82088A99FC00CFD185 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+				);
+				INFOPLIST_FILE = "Info-NuclearChess__Upgraded_.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SDL,
+					"-framework",
+					SDL_image,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NuclearChess;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		CB2A5D84088A99FC00CFD185 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		CB2A5D85088A99FC00CFD185 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		CB2A5D86088A99FC00CFD185 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2A5D7F088A99FC00CFD185 /* Build configuration list for PBXNativeTarget "NuclearChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2A5D80088A99FC00CFD185 /* Development */,
+				CB2A5D81088A99FC00CFD185 /* Deployment */,
+				CB2A5D82088A99FC00CFD185 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		CB2A5D83088A99FC00CFD185 /* Build configuration list for PBXProject "NuclearChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2A5D84088A99FC00CFD185 /* Development */,
+				CB2A5D85088A99FC00CFD185 /* Deployment */,
+				CB2A5D86088A99FC00CFD185 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB7F10A9083F4C80000567D3 /* Project object */;
+}

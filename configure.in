@@ -1,0 +1,38 @@
+######## Process this file with autoconf to produce a configure script.
+AC_INIT(README)
+
+######## Detect the canonical host and target build environment
+AC_CANONICAL_HOST
+AC_CANONICAL_TARGET
+
+######## Setup for automake
+NAME="nuclearchess"
+SDL_VERSION=1.2.0
+AM_INIT_AUTOMAKE($NAME, 0.9.2)
+
+######## Check for tools
+AC_PROG_CC
+AC_PROG_INSTALL
+
+######## Check for compiler environment
+AC_C_CONST
+
+######## Check for SDL
+AM_PATH_SDL($SDL_VERSION,
+            :,
+	    AC_MSG_ERROR([*** SDL version $SDL_VERSION not found!])
+)
+
+######## Check for other libs
+AC_CHECK_LIB(SDL_image, main, , , $SDL_LIBS)
+
+######## Set libraries and cfalgs
+CFLAGS="$CFLAGS $SDL_CFLAGS -DDATADIR=\"\\\"$datadir/nuclearchess\\\"\" -Wall"
+LIBS="$SDL_LIBS -lSDL_image"
+
+######## Finally create all the generated files
+AC_OUTPUT([
+Makefile
+src/Makefile
+gfx/Makefile
+])
