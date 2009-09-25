@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Nuclear Chess' target in the 'Nuclear Chess' project
+//
+
+#include "SDL.h"
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

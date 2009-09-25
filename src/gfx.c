@@ -1,4 +1,4 @@
-#include <SDL_image.h>
+#include "SDL_image/SDL_image.h"
 #include <stdlib.h>
 
 #define PATHNUM 5
@@ -9,7 +9,7 @@
 #define DATADIR "."
 #endif
 char DATAPATH[200]=DATADIR;
-const char PATH[PATHNUM][200]={DATADIR,".","../","NuclearChess.app/Contents/Resources",DATADIR};SDL_Surface *Screen,*BackBuffer,*FadeBuffer;
+const char PATH[PATHNUM][200]={DATADIR,".","../","Nuclear Chess.app/Contents/Resources",DATADIR};SDL_Surface *Screen,*BackBuffer,*FadeBuffer;
 SDL_Rect blitrect,blitrects[RECTS_NUM];
 int blitrects_num = 0;
 int NoAlpha = 0;
