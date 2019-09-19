@@ -9,7 +9,7 @@
 
 #include "SDL.h"	// for sfont
 #include "SFont.h"	// for sfont
-#include "SDL_Image/SDL_image.h"	// for sfont
+#include "SDL/SDL_image.h"	// for sfont
 
 #define XOFF 40
 #define YOFF 40

@@ -28,7 +28,7 @@ AC_CHECK_LIB(SDL_image, main, , , $SDL_LIBS)
 
 ######## Set libraries and cfalgs
 CFLAGS="$CFLAGS $SDL_CFLAGS -DDATADIR=\"\\\"$datadir/nuclearchess\\\"\" -Wall"
-LIBS="$SDL_LIBS -lSDL_image"
+LIBS="$SDL_LIBS -lSDL_image -lm"
 
 ######## Finally create all the generated files
 AC_OUTPUT([
